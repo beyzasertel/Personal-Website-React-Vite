@@ -34,7 +34,7 @@ export default function ProjectsCard({
           <p className="mb-4 text-black dark:text-white!">{translate(text)}</p>
         </p>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-3 w-max mb-4">
+        <div className="flex flex-wrap w-96 mb-4 gap-2">
           {buttons.map((button) => (
             <PillButton key={button.title} title={button.title} />
           ))}
@@ -43,7 +43,7 @@ export default function ProjectsCard({
         <div className="w-full flex flex-col md:flex-row items-center md:justify-between py-4">
           <a
             href={gitHubLink}
-            className="no-underline! text-black dark:text-white!"
+            className="no-underline! text-black dark:text-white! font-bold"
           >
             View on Github
           </a>

@@ -8,7 +8,7 @@ export default function IconButton({ text, icon, darkThemeIcon, link }) {
       <img
         src={theme === "dark" ? darkThemeIcon : icon}
         alt={text}
-        className="w-4 h-4 md:h-6 md:w-6"
+        className="w-8 h-8 md:h-12 md:w-12"
       />
     </a>
   );

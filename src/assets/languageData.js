@@ -10,6 +10,7 @@ const translations = {
     title: "I’m Beyza. I’m a full-stack developer.",
     skills: "Skills",
     profile: "Profile",
+    projects: "Projects",
     aboutMe: "About Me",
     aboutMeText:
       "Full Stack Developer with a strong frontend background and experience in building scalable web applications using React and Spring Boot. Passionate about clean code, intuitive user experiences, and continuous learning.",
@@ -35,6 +36,7 @@ const translations = {
     title: "Ben Beyza. Full-stack geliştiriciyim.",
     skills: "Yetenekler",
     profile: "Profil",
+    projects: "Projeler",
     aboutMe: "Hakkımda",
     aboutMeText:
       "Frontend ağırlıklı bir geçmişe sahip, React ve Spring Boot kullanarak ölçeklenebilir web uygulamaları geliştirme deneyimi olan bir Full Stack geliştiriciyim. Temiz kod, sezgisel kullanıcı deneyimleri ve sürekli öğrenmeye tutkuyla bağlıyım.",
