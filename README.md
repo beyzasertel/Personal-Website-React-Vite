@@ -46,6 +46,9 @@ cd Personal-Website-React-Vite
 npm install  
 npm run dev
 
+```
+---
+
 ## 👩‍💻 Author
 
 Beyza Can Sertel
