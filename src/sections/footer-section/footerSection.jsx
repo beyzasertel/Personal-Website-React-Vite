@@ -6,25 +6,19 @@ export default function FooterSection() {
   const links = [
     {
       title: "Github",
-      link: "",
+      link: "https://github.com/beyzasertel",
       color: "text-blue!",
       darkColor: "text-lightBlue!",
     },
     {
-      title: "Personal Blog",
-      link: "",
-      color: "text-mediumBlack!",
-      darkColor: "text-white!",
-    },
-    {
       title: "Linkedin",
-      link: "",
+      link: "https://www.linkedin.com/in/beyza-can-sertel/",
       color: "text-navyBlue!",
       darkColor: "text-navyBlue!",
     },
     {
       title: "Email",
-      link: "",
+      link: "mailto:beyzacansertel@gmail.com",
       color: "text-burgundy!",
       darkColor: "text-pink!",
     },
@@ -33,7 +27,7 @@ export default function FooterSection() {
   return (
     <div className="py-8 dark:bg-softBlack mb-12 flex justify-center md:flex-row flex-col container gap-8">
       <div className="relative">
-        <p className="relative dark:text-white text-5xl z-10 leading-[20px] md:leading-[50px]">
+        <p className="relative dark:text-white text-5xl z-10 leading-[40px] md:leading-[50px]">
           Let’s work together <br /> on your next product.
         </p>
         <img
@@ -47,7 +41,7 @@ export default function FooterSection() {
         {links.map((link, index) => {
           return (
             <a
-              href={link.title}
+              href={link.link}
               key={index}
               className={`${
                 theme === "dark" ? link.darkColor : link.color

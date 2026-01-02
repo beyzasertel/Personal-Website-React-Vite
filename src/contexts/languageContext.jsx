@@ -1,5 +1,5 @@
 import { createContext, useState, useContext } from "react";
-import languageData from "../assets/languageData";
+import languageData from "../assets/languageData.js";
 
 const LanguageContext = createContext();
 
@@ -8,9 +8,17 @@ export const LanguageProvider = ({ children }) => {
 
   const switchLanguage = (lang) => setLanguage(lang);
 
+  const translate = (key) => {
+    return key.split(".").reduce((obj, k) => obj?.[k], languageData[language]);
+  };
+
   return (
     <LanguageContext.Provider
-      value={{ language, switchLanguage, text: languageData[language] }}
+      value={{
+        language,
+        switchLanguage,
+        translate,
+      }}
     >
       {children}
     </LanguageContext.Provider>

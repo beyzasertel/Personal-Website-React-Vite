@@ -1,7 +1,10 @@
 import BannerCard from "../../components/banner-card/bannerCard";
 import IconButton from "../../components/icon-button/iconButton";
+import { useLanguage } from "../../contexts/languageContext";
 
 export default function BannerSection() {
+  const { translate } = useLanguage();
+
   const links = [
     {
       link: "https://www.linkedin.com/in/beyza-can-sertel/",
@@ -27,18 +30,16 @@ export default function BannerSection() {
               alt="pink-rectangle"
               className="absolute top-12 md:top-17 left-[-5px] z-0 h-2 md:h-6"
             />
-            <div className="relative z-10">
-              <p className="text-sm md:text-xl">Hi! 👋</p>
+            <div className="relative z-10 mt-12 md:mt-0">
+              <p className="text-sm md:text-xl"> {translate("hi")}! 👋</p>
               <p className="font-bold text-sm md:text-4xl leading-[20px] md:leading-[50px]">
-                I’m Beyza. I’m a full-stack <br className="hidden md:block" />
-                developer. I can craft solid and scalable frontend products.
-                <br /> Let’s meet!
+                {translate("title")}
               </p>
             </div>
           </div>
         </div>
 
-        <div className=" ">
+        <div>
           <BannerCard />
         </div>
       </div>
@@ -56,16 +57,6 @@ export default function BannerSection() {
               />
             );
           })}
-        </div>
-        <div className="mt-2 pb-4">
-          <p className="text-mediumBlack dark:text-white text-[10px] md:text-base">
-            Currently <span className="text-pink">Freelancing</span> for
-            <span className="text-pink">
-              UX, UI, & Web Design
-            </span> Project. <br />
-            Invite me to join your team -&gt;
-            <span className="text-pink"> pratamaiosi@gmail.com</span>
-          </p>
         </div>
       </div>
 

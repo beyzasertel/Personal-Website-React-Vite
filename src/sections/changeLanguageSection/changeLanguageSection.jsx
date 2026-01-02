@@ -3,13 +3,13 @@ import { useLanguage } from "../../contexts/languageContext";
 import { ThemeContext } from "../../contexts/themeContext";
 
 export default function ChangeLanguageSection() {
-  const { switchLanguage, language, text } = useLanguage();
+  const { switchLanguage, language, translate } = useLanguage();
   const [theme] = useContext(ThemeContext);
 
   return (
     <div className="flex text-lightGray text-[10px] md:text-xs">
       <p className="m-0">
-        {theme === "dark" ? text.mode.dark : text.mode.light}
+        {theme === "dark" ? translate("mode.dark") : translate("mode.light")}
       </p>
 
       <span className="bg-lightGray w-px h-3 mx-1 md:mx-2 mt-0.5 "></span>
@@ -18,9 +18,9 @@ export default function ChangeLanguageSection() {
           className="text-pink"
           onClick={() => switchLanguage(language === "tr" ? "en" : "tr")}
         >
-          {text.language}
+          {translate("language")}
         </button>
-        {text.changeLanguage}
+        {translate("changeLanguage")}
       </p>
     </div>
   );
