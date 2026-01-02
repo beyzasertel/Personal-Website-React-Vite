@@ -30,11 +30,6 @@ export default function FooterSection() {
         <p className="relative dark:text-white text-5xl z-10 leading-[40px] md:leading-[50px]">
           Let’s work together <br /> on your next product.
         </p>
-        <img
-          src="src/assets/images/elements/blue-long-rectangle.png"
-          alt="blue-rectangle"
-          className="absolute top-9 left-34 z-0"
-        />
       </div>
 
       <div className="flex flex-col text-xl">

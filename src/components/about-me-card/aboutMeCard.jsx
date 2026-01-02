@@ -9,7 +9,7 @@ export default function AboutMeCard() {
           {translate("aboutMe")}
         </p>
         <img
-          src="src/assets/images/elements/blue-short-rectangle.svg"
+          src="/images/elements/blue-short-rectangle.svg"
           alt="blue-rectangle"
           className="absolute top-4"
         />

@@ -8,7 +8,7 @@ export default function ProfileSection() {
   return (
     <div className="bg-softGray dark:bg-darkGray relative">
       <img
-        src="src/assets/images/elements/half-pink-circle.svg"
+        src="/images/elements/half-pink-circle.svg"
         alt="pink-circle"
         className="absolute top-[-25px] md:top-[-50px] right-0 h-12 md:h-24"
       />

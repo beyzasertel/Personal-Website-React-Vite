@@ -14,8 +14,8 @@ export default function HeaderSection() {
             className="absolute top-0 left-[10%] md:left-[10%] h-6 md:h-16"
             src={
               theme === "dark"
-                ? "src/assets/images/elements/half-dark-gray-circle.svg"
-                : "src/assets/images/elements/half-light-gray-circle.svg"
+                ? "/images/elements/half-dark-gray-circle.svg"
+                : "/images/elements/half-light-gray-circle.svg"
             }
           />
           <div className="flex items-center w-full absolute left-[30%] md:left-[64%]">

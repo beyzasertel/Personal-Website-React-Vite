@@ -13,8 +13,8 @@ export default function SkillsSection() {
       <img
         src={
           theme === "dark"
-            ? "src/assets/images/elements/dark-gray-circle.svg"
-            : "src/assets/images/elements/light-gray-circle.svg"
+            ? "/images/elements/dark-gray-circle.svg"
+            : "/images/elements/light-gray-circle.svg"
         }
         alt="circle"
         className="absolute top-[-4%] md:top-[-10%] right-[30%] h-12 w-12 md:h-22 md:w-22"
@@ -33,7 +33,7 @@ export default function SkillsSection() {
       </div>
 
       <img
-        src="src/assets/images/elements/rounded-dark-gray-rectangle.svg"
+        src="/images/elements/rounded-dark-gray-rectangle.svg"
         alt="rectangle"
         className="absolute  bottom-0 left-0 h-12 w-12 md:h-22 md:w-22"
       />

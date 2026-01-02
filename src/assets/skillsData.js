@@ -1,22 +1,34 @@
 export const skills = [
   {
     text: "Javascript",
-    icon: "src/assets/images/logos/js-logo.svg",
+    icon: "/images/logos/js-logo.svg",
   },
   {
     text: "React",
-    icon: "src/assets/images/logos/react-logo.svg",
+    icon: "/images/logos/react-logo.svg",
   },
   {
-    text: "React",
-    icon: "src/assets/images/logos/react-logo.svg",
+    text: "Redux",
+    icon: "/images/logos/redux-logo.svg",
   },
   {
     text: "Vs code",
-    icon: "src/assets/images/logos/vs-code-logo.svg",
+    icon: "/images/logos/vs-code-logo.svg",
   },
   {
     text: "Figma",
-    icon: "src/assets/images/logos/figma-logo.svg",
+    icon: "/images/logos/figma-logo.svg",
+  },
+  {
+    text: "Java",
+    icon: "/images/logos/java-logo.svg",
+  },
+  {
+    text: "SpringBoot",
+    icon: "/images/logos/springboot-logo.svg",
+  },
+  {
+    text: "Postgresql",
+    icon: "/images/logos/postgresql-logo.svg",
   },
 ];

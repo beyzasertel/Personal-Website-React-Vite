@@ -9,14 +9,14 @@ export default function BannerSection() {
     {
       link: "https://www.linkedin.com/in/beyza-can-sertel/",
       text: "linkedin",
-      icon: "src/assets/images/logos/linkedin-logo-black.svg",
-      darkThemeIcon: "src/assets/images/logos/linkedin-logo-gray.svg",
+      icon: "/images/logos/linkedin-logo-black.svg",
+      darkThemeIcon: "/images/logos/linkedin-logo-gray.svg",
     },
     {
       link: "https://github.com/beyzasertel",
       text: "github",
-      icon: "src/assets/images/logos/github-logo-black.svg",
-      darkThemeIcon: "src/assets/images/logos/github-logo-gray.svg",
+      icon: "/images/logos/github-logo-black.svg",
+      darkThemeIcon: "/images/logos/github-logo-gray.svg",
     },
   ];
 
@@ -26,7 +26,7 @@ export default function BannerSection() {
         <div className="text-mediumBlack dark:text-white  ">
           <div className="relative ">
             <img
-              src="src/assets/images/elements/pink-rectangle.svg"
+              src="/images/elements/pink-rectangle.svg"
               alt="pink-rectangle"
               className="absolute top-12 md:top-17 left-[-5px] z-0 h-2 md:h-6"
             />
@@ -62,7 +62,7 @@ export default function BannerSection() {
 
       <div className="absolute right-0 bottom-[10px] md:bottom-[22px] w-12 md:w-22">
         <img
-          src="src/assets/images/elements/rounded-pink-rectangle.svg"
+          src="/images/elements/rounded-pink-rectangle.svg"
           alt="pink-rounded-rectangle"
           className="absolute z-10"
         />
